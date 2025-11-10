@@ -44,10 +44,29 @@
 
 1. **Clone repository**
 ```bash
-git clone https://github.com/username/bitpy-project.git
+git clone https://github.com/muh-ramadhan/BitPy.git
 cd bitpy-project
 pip install -r requirements.txt
 python src/main.py
+```
+2. **Available Commands:**
+```text
+  help                      - Show this help
+  status                    - Show node status
+  createwallet [name]       - Create new wallet
+  getbalance [addr]         - Get balance for address
+  listaddresses [wallet]    - List addresses in wallet
+  send <from> <to> <amount> - Send Bitpy
+  mine <address>            - Start mining to address
+  stopmining                - Stop mining
+  mininginfo                - Show mining information
+  getblockcount             - Get current block height
+  getblock <hash>           - Get block information
+  getbestblockhash          - Get best block hash
+  startnode                 - Start P2P network node
+  getpeerinfo               - Get peer information
+  dumpblockchain            - Dump blockchain info
+  quit                      - Exit Bitpy CLI
 ```
 
 ## 📄 License
