@@ -1,0 +1,4 @@
+# requirements.txt
+ecdsa==0.18.0
+base58==2.1.1
+rocksdict==0.3.27
