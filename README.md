@@ -45,7 +45,7 @@
 1. **Clone repository**
 ```bash
 git clone https://github.com/muh-ramadhan/BitPy.git
-cd bitpy-project
+cd BitPy
 pip install -r requirements.txt
 python src/main.py
 ```
