@@ -2,13 +2,24 @@
 
 ![Bitpy Banner](https://#)
 
-**Bitpy** adalah cryptocurrency desentralisasi penuh menggunakan Proof-of-Work dengan fokus pada transaksi sehari-hari, UMKM, dan penggunaan internasional.
+**Bitpy** adalah cryptocurrency desentralisasi penuh menggunakan Proof-of-Work dengan fokus pada transaksi sehari-hari, UMKM, dan penggunaan internasional. **Dibangun berdasarkan kode Bitcoin versi awal yang diadaptasi ke Python** dan dimodifikasi dengan fitur-fitur inovatif.
 
-**Bitpy** is a fully decentralized cryptocurrency using Proof-of-Work focused on daily transactions, SMEs, and international use.
+**Bitpy** is a fully decentralized cryptocurrency using Proof-of-Work focused on daily transactions, SMEs, and international use. **Built upon early Bitcoin code adapted to Python** and modified with innovative features.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+## 🎯 Origin & Philosophy
+
+**Based on Original Bitcoin Code** - Bitpy dimulai dari kode Bitcoin versi awal yang di-porting ke Python, dengan modifikasi signifikan untuk:
+- Transaksi mikro gratis
+- Sistem fee bertingkat berdasarkan cumulative 30 hari
+- Model privasi hybrid
+- Reward block adaptif
+- **Auto-recovery wallet tidak aktif 10 tahun**
+
+**Philosophy**: Membuat cryptocurrency yang benar-benar terdesentralisasi dan praktis untuk penggunaan sehari-hari.
 
 ## ✨ Fitur Utama / Key Features
 
@@ -17,10 +28,13 @@
 - 📊 **Fee Bertingkat** / Tiered Fee System
 - 🛡️ **Privasi & Transparansi** / Privacy & Transparency
 - 🌍 **Dukungan Internasional** / International Support
-- ⚡ **Pembayaran Kode QR** / QR Code Payments
-- ⛏️ **Penambangan Bukti Kerja** / Proof-of-Work Mining
-- 🔄 **Blok Hadiah Adaptif** / Reward Block Adaptif
-  
+- ⛏️ **Proof-of-Work Mining**
+- 🔄 **Reward Block Adaptif** / Adaptive Block Reward
+- 📱 **CLI-based** - Berjalan di Terminal, Termux, CMD / Runs on Terminal, Termux, CMD
+- 💾 **RocksDB Storage** - Database high-performance
+- 📧 **QR Code Support** - Untuk alamat penerima / For recipient addresses
+- 🔄 **Auto Recovery** - Saldo wallet tidak aktif 10 tahun dikembalikan ke pending supply
+
 ## 📚 Dokumentasi / Documentation
 
 ### Bahasa Indonesia
@@ -70,7 +84,7 @@ python src/main.py
 ```
 
 ## 📄 License
-- Distributed under the MIT License. See LICENSE for more information.
+- Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## 📞 Contact & Support
 - GitHub Issues: Laporkan bug atau request fitur
